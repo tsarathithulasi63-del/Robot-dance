@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background: #222;
+    color: white;
+    margin-top: 100px;
+}
+
+/* Robot */
+.robot {
+    margin: auto;
+    width: 100px;
+}
+
+/* Head */
+.head {
+    width: 80px;
+    height: 50px;
+    background: cyan;
+    margin: auto;
+}
+
+/* Body */
+.body {
+    width: 100px;
+    height: 100px;
+    background: teal;
+    margin: auto;
+}
+
+/* Animation */
+.dance {
+    animation: move 0.5s infinite alternate;
+}
+
+@keyframes move {
+    from { transform: rotate(-10deg); }
+    to { transform: rotate(10deg); }
+}
